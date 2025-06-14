@@ -15,6 +15,7 @@ namespace MVCDemoApp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "Welcome to ASP.NET core MVC APP";
             return View();
         }
 
